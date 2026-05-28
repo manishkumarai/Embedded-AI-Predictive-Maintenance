@@ -1,0 +1,11 @@
+python3 -c "import numpy, scipy, sklearn, tensorflow, paho.mqtt; print('ML stack: OK')"
+#checked-working
+
+mosquitto_pub -t heartbeat -m ping 
+#working
+
+python3 -c "import paho.mqtt.client as mqtt; print('MQTT: OK')" 
+#working
+
+curl -s http://localhost:1880 | grep -q node && echo "Node-RED: OK"
+#working

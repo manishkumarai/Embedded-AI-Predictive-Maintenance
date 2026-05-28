@@ -1,0 +1,10 @@
+brew install mosquitto
+
+# Start broker (use manual start if brew services fails with launchctl I/O error)
+brew services start mosquitto
+
+# Fallback if brew services fails:
+# mosquitto -d
+
+# Test: use -r (retain) so the subscriber receives the message even after pub completes
+mosquitto_pub -h 127.0.0.1 -t test -r -m "hello" && mosquitto_sub -h 127.0.0.1 -t test -C 1

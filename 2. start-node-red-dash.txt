@@ -1,0 +1,9 @@
+# run one line at a time
+
+brew install node
+npm install -g node-red
+node-red &
+
+# dashboard opens at: http://localhost:1880
+# install dashboard plugin:
+# Menu → Manage palette → Install → node-red-dashboard

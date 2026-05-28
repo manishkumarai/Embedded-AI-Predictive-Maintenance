@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+cwru-simulation/data/*.mat
+cwru-simulation/data/*.npy
+feature_norm.npy
+
+# Model files
+*.tflite
+*.h5
+*.pb
+*.onnx
+*.pkl
+*.joblib
+
+# Logs
+*.log
+train_log.txt
+main-idea.txt
+
+# Node-RED
+.node-red/
+node_modules/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+*.env
+
+# Test / coverage
+.pytest_cache/
+htmlcov/
+.coverage
