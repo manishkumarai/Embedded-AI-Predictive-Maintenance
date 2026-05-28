@@ -547,7 +547,7 @@ If this project saved you time, helped you learn edge AI, or gave you a working 
 
 Stars help other engineers and students discover the project, and every one is appreciated.
 
-> **[⭐ Star on GitHub](https://github.com/your-username/emb-ai-pred-main)** — takes 2 seconds and means a lot.
+> **[⭐ Star on GitHub](https://github.com/manishkumarai/Embedded-AI-Predictive-Maintenance/)** — takes 2 seconds and means a lot.
 
 Feedback, issues, and pull requests are equally welcome.
 
