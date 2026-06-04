@@ -534,6 +534,14 @@ python test_simulator.py
 - [x] Retrain on real CWRU data — `cwru-simulation/train_cwru_model.py` (100% val accuracy, bearing_wear detected at 72–84% confidence)
 
 ---
+## About the Author
+
+Manish Kumar is Global AI Leader at CareerByteCode and Founder of AI Empowered Hub. He has 12+ years of experience as a Technical Architect building AI, Data Analytics, and Business Process Automation systems inside enterprises across Banking, Insurance, Telecom, Retail, Real Estate, and Mortgage. 
+He help engineering students from Tier 2 and Tier 3 colleges build AI-proof careers through structured community based cohort programs with real industry context, and proven frameworks — not motivation.
+
+LinkedIN: https://linkedin.com/in/manishkumarai
+
+---
 
 ## License
 
